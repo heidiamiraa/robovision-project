@@ -1,0 +1,23 @@
+# Dataset archives and extracted folders (keep raw data out of Git)
+Challenge_Dataset/
+*.zip
+*.tar.gz
+
+# Generated submission / intermediate JSON if you don't want them tracked
+submission.csv
+baseline_results.json
+
+# Python & Jupyter cache / checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.pth
+*.pt
+
+# Environment & OS files
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db
